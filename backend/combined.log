@@ -1,0 +1,84 @@
+{"level":"info","message":"Info message","timestamp":"2023-04-22T17:45:54.258Z"}
+{"level":"error","message":"Error message","timestamp":"2023-04-22T17:45:54.259Z"}
+{"level":"warn","message":"Warning message","timestamp":"2023-04-22T17:45:54.259Z"}
+{"level":"info","message":"Info message","timestamp":"2023-04-22T17:46:18.904Z"}
+{"level":"error","message":"Error message","timestamp":"2023-04-22T17:46:18.905Z"}
+{"level":"warn","message":"Warning message","timestamp":"2023-04-22T17:46:18.905Z"}
+{"level":"info","message":"Info message","timestamp":"2023-04-22T17:46:29.260Z"}
+{"level":"error","message":"Error message","timestamp":"2023-04-22T17:46:29.261Z"}
+{"level":"warn","message":"Warning message","timestamp":"2023-04-22T17:46:29.261Z"}
+{"level":"info","message":"Job added successfully","timestamp":"2023-04-22T17:46:46.171Z"}
+{"level":"info","message":"Job added successfully","timestamp":"2023-04-22T18:03:23.429Z"}
+{"level":"error","message":"err","timestamp":"2023-04-22T18:04:57.657Z"}
+
+{"_message":"jobs validation failed","errors":{"title":{"kind":"required","message":"Path `title` is required.","name":"ValidatorError","path":"title","properties":{"message":"Path `title` is required.","path":"title","type":"required","value":""},"value":""}},"level":"error","message":"jobs validation failed: title: Path `title` is required.","name":"ValidationError","timestamp":"2023-04-22T18:05:28.596Z"}
+
+{"level":"error","timestamp":"2023-04-22T18:07:42.942Z"}
+{"level":"error","message":"Path `title` is required.","timestamp":"2023-04-22T18:08:15.939Z"}
+{"level":"info","message":"Job added successfully","timestamp":"2023-04-22T18:08:49.328Z"}
+{"level":"info","message":"Job added successfully","timestamp":"2023-04-22T18:09:11.060Z"}
+{"level":"error","message":"Path `title` is required.","timestamp":"2023-04-22T18:09:18.638Z"}
+{"level":"error","message":"jobs validation failed","timestamp":"2023-04-22T18:10:22.053Z"}
+{"level":"info","message":"job deleted by recruiter","timestamp":"2023-04-22T18:20:41.481Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-23T13:13:11.990Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-23T13:14:09.920Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-23T13:16:20.409Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-23T13:16:37.415Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-23T13:17:33.309Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-23T13:18:05.878Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-23T13:18:22.259Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-23T13:19:38.613Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-23T13:19:56.503Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-23T13:21:57.271Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-23T13:22:28.681Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-23T13:22:43.014Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-23T13:56:58.596Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-23T14:06:14.809Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T15:51:01.034Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T15:59:59.952Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:00:38.175Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:01:25.625Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:02:09.729Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:02:49.075Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:03:24.193Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:04:08.296Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:06:50.533Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:09:30.264Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:12:01.353Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:13:26.605Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:13:59.862Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:17:48.952Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:19:20.812Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:20:53.395Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:21:07.620Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:22:48.592Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:27:32.756Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:27:49.436Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:28:16.882Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:29:58.270Z"}
+{"level":"info","message":"New Job Applicant Signed up","timestamp":"2023-04-24T16:43:26.360Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:47:44.546Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:48:07.908Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:48:29.687Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:48:57.240Z"}
+{"level":"info","message":"New Job Applicant Signed up","timestamp":"2023-04-24T16:48:58.850Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:53:11.836Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:57:56.264Z"}
+{"level":"info","message":"New Job Applicant Signed up","timestamp":"2023-04-24T16:58:34.787Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:58:35.233Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T16:59:51.754Z"}
+{"level":"info","message":"New Job Applicant Signed up","timestamp":"2023-04-24T16:59:52.088Z"}
+{"level":"info","message":"New Job Applicant Signed up","timestamp":"2023-04-24T17:05:34.902Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T17:08:21.150Z"}
+{"level":"info","message":"New Job Applicant Signed up","timestamp":"2023-04-24T17:08:22.567Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T17:12:32.543Z"}
+{"level":"info","message":"New Recruiter Signed up","timestamp":"2023-04-24T17:12:33.968Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T17:16:59.232Z"}
+{"level":"info","message":"New Recruiter Signed up","timestamp":"2023-04-24T17:17:00.731Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T17:18:23.331Z"}
+{"level":"info","message":"New Recruiter Signed up","timestamp":"2023-04-24T17:18:24.851Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T17:19:15.769Z"}
+{"level":"info","message":"New Recruiter Signed up","timestamp":"2023-04-24T17:19:17.360Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T17:21:00.945Z"}
+{"level":"info","message":"New Recruiter Signed up","timestamp":"2023-04-24T17:21:02.515Z"}
+{"level":"info","message":"User Logged in Successfully","timestamp":"2023-04-24T17:21:46.421Z"}
