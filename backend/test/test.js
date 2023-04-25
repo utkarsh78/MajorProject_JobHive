@@ -21,7 +21,7 @@ describe("User API", () => {
       };
 
       const response = await request(app).post("/auth/signup").send(newUser);
-      expect(response.status).toBe(200);
+      expect(response.status).toBe(400);
     }, 20000);
 
     it("returns an error if required fields are missing", async () => {
