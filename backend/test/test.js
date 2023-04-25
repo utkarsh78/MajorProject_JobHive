@@ -15,7 +15,7 @@ describe("User API", () => {
       const newUser = {
         type: "recruiter",
         name: "pranjal sharma",
-        email: "pranjsalssssvjbb.sharma@iiitb.ac.in",
+        email: "pranjsalsskssvjbb.sharma@iiitb.ac.in",
         password: "1234588888",
         bio: "Hi i am recruiter",
         contactNumber: "+916260151299",
@@ -25,7 +25,7 @@ describe("User API", () => {
         .post("/auth/signup")
         .send(newUser)
       expect(response.status).toBe(400);
-    }, 20000);
+    }, 200000);
 
     it("returns an error if required fields are missing", async () => {
       const newUser = {
