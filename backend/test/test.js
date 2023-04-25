@@ -1,14 +1,13 @@
-const server = require('../server')
-const request = require('supertest')
-
+const {app} = require("../server");
+const request = require("supertest");
+const process = require('process')
 
 describe("User API", () => {
   let token;
 
-    beforeAll((done) => {
-      done();
-    });
-
+  beforeAll((done) => {
+    done();
+  });
 
   describe("POST /auth/users", () => {
     it("registers a new Recruiter", async () => {
@@ -21,10 +20,8 @@ describe("User API", () => {
         contactNumber: "+916260151299",
       };
 
-      const response = await request(server)
-        .post("/auth/signup")
-        .send(newUser)
-      expect(response.status).toBe(400);
+      const response = await request(app).post("/auth/signup").send(newUser);
+      expect(response.status).toBe(200);
     }, 20000);
 
     it("returns an error if required fields are missing", async () => {
@@ -37,14 +34,14 @@ describe("User API", () => {
         contactNumber: "+916260101990",
       };
 
-      const response = await request(server)
+      const response = await request(app)
         .post("/auth/signup")
         .send(newUser)
         .set("Authorization", `Bearer ${token}`);
 
       expect(response.status).toBe(400);
       expect(response.body).toHaveProperty("message");
-    });
+    }, 20000);
   });
 
   describe("POST /auth/login", () => {
@@ -54,14 +51,14 @@ describe("User API", () => {
         password: "12345678",
       };
 
-      const response = await request(server)
+      const response = await request(app)
         .post("/auth/login")
         .send(credentials);
 
       expect(response.status).toBe(200);
       expect(response.body).toHaveProperty("token");
       expect(response.body).toHaveProperty("type");
-    });
+    },2000);
 
     it("returns an error for invalid credentials", async () => {
       const credentials = {
@@ -69,16 +66,13 @@ describe("User API", () => {
         password: "123cvhd45678",
       };
 
-      const response = await request(server)
+      const response = await request(app)
         .post("/auth/login")
         .send(credentials);
 
       expect(response.status).toBe(401);
-    });
+    },20000);
   });
 
-
-  afterAll((done) => {
-    done();
-  });
+  afterAll(() => setTimeout(() => process.exit(), 1000));
 });

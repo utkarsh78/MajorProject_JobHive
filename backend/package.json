@@ -4,7 +4,7 @@
   "description": "node js app",
   "scripts": {
     "start": "nodemon server",
-    "test": "node ./node_modules/jest/bin/jest"
+    "test": "node ./node_modules/jest/bin/jest && jest --forceExit"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +21,7 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "jsonwebtoken": "^9.0.0",
+    "knex": "^2.4.2",
     "mongoose": "^5.11.11",
     "mongoose-type-email": "^1.1.2",
     "multer": "^1.4.3",
@@ -36,5 +37,8 @@
     "jest": "^29.5.0",
     "nodemon": "^2.0.22",
     "supertest": "^6.3.3"
+  },
+  "jest":{
+    "testEnvironment":"node"
   }
 }
