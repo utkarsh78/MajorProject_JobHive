@@ -1,2 +1,2 @@
 [utkarsh]
-172.16.141.157 ansible_user=dell
+192.168.29.158 ansible_user=dell
