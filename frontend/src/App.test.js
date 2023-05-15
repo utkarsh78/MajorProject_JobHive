@@ -12,10 +12,10 @@ test("renders the landing page", () => {
 //Welcome Component test
 describe("Welcome component", () => {
   test("renders without error", () => {
-    const { getByTestId } = render(<Welcome />);
+    render(<Welcome />);
 
     // Select the video element using getByTestId
-    const videoElement = getByTestId("welcome-video");
+    const videoElement = screen.getByTestId("welcome-video");
     expect(videoElement).toBeInTheDocument();
   });
 });
