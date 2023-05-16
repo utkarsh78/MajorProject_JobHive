@@ -30,7 +30,7 @@ pipeline{
                 }
             }
         }
-        stage('Stage 4: Testing'){
+        stage('Stage 4:Backend Testing'){
             steps{
                 dir("backend"){
                     sh 'npm i'
@@ -39,8 +39,17 @@ pipeline{
             }
         }
         
+        stage('Stage 5:Frontend Testing'){
+            steps{
+                dir("frontend"){
+                    sh 'npm i'
+                    sh 'npm test'
+                }
+            }
+        }
         
-        stage('Stage 5: Push Server Docker Image to DockerHub') {
+        
+        stage('Stage 6: Push Server Docker Image to DockerHub') {
             steps {
                 script {
                     docker.withRegistry('', 'DockerID') {
@@ -49,7 +58,7 @@ pipeline{
                 }
             }
         }
-        stage('Stage 6: Push Client Docker Image to DockerHub') {
+        stage('Stage 7: Push Client Docker Image to DockerHub') {
             steps {
                 script {
                     docker.withRegistry('', 'DockerID') {
@@ -59,7 +68,7 @@ pipeline{
             }
         }
         
-        stage('Stage 7 : Delete Docker Image'){
+        stage('Stage 8 : Delete Docker Image'){
             steps {
                 script {
                     sh '''
@@ -88,7 +97,7 @@ pipeline{
             }
         }
         
-        stage('Stage 8: Ansible Deployment to machine'){
+        stage('Stage 9: Ansible Deployment to machine'){
             steps{
                 
                 //ansiblePlaybook becomeUser: 'null', colorized: true, credentialsId: 'docker', installation: 'Ansible', inventory: 'deploy-docker/inventory', playbook: 'deploy-docker/deploy-docker.yml', sudoUser: 'null'
