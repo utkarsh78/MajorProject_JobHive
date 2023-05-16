@@ -42,7 +42,7 @@ pipeline{
         stage('Stage 5:Frontend Testing'){
             steps{
                 dir("frontend"){
-                    sh 'npm i'
+                    sh 'npm i --force'
                     sh 'npm test'
                 }
             }
